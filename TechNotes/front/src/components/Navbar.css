@@ -1,0 +1,51 @@
+/* Navbar.css */
+nav {
+    background-color: #f3f3ef;
+    color: #000 !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  h2 {
+    margin: 0 !important;
+  }
+  
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+    padding: 5px !important;
+  }
+  
+  Link:hover {
+    text-decoration: underline !important;
+  }
+
+  .lf-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .lf-nav h5 {
+    font-size: 16px !important;
+    font-weight: 400;
+    margin: 0 15px 0 !important;
+  }
+
+  /*dash*/
+  .dash-container {
+     width: 90%;
+     height: 100%;
+     margin: auto;
+  }
+
+  .dash-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .dash-links a {
+    margin-bottom: 10px !important;
+  }
